@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+.idea/
+/html/Nginx-1.12_vhost.conf
+/html/PHP-7.1-x64_php.ini
+/html/config.core.php
+/html/joins/config.core.php
+/core/config/config.inc.php
