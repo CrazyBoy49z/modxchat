@@ -1,0 +1,11 @@
+{
+    "name": "krasnikov87/modxchat",
+    "autoload": {
+        "psr-4": {
+            "krasnikov\\": "modxchat\\"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "^0.4.1"
+    }
+}
