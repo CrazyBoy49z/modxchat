@@ -1,37 +1,36 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5722bbf5b6cd9e745169bc308c88ecd3",
+    "content-hash": "90b46579e3a14f4c77ccf565cc2ebe62",
     "packages": [
         {
             "name": "fenom/fenom",
-            "version": "2.11.8",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fenom-template/fenom.git",
-                "reference": "2d968ab8d07791eefc5ada419b13fa884cd0d21b"
+                "reference": "fbf4f46f1fe1d7d3cc342996e8e71d42b6b1ecdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fenom-template/fenom/zipball/2d968ab8d07791eefc5ada419b13fa884cd0d21b",
-                "reference": "2d968ab8d07791eefc5ada419b13fa884cd0d21b",
+                "url": "https://api.github.com/repos/fenom-template/fenom/zipball/fbf4f46f1fe1d7d3cc342996e8e71d42b6b1ecdb",
+                "reference": "fbf4f46f1fe1d7d3cc342996e8e71d42b6b1ecdb",
                 "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
-                "php": ">=5.3.0"
+                "php": ">=8.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "<6.0",
-                "satooshi/php-coveralls": "*"
+                "phpunit/phpunit": "9.*"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Fenom\\": "src/"
+                "psr-4": {
+                    "Fenom\\": "src/Fenom"
                 },
                 "classmap": [
                     "src/Fenom.php"
@@ -39,7 +38,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -54,15 +53,20 @@
                 "templater",
                 "templating"
             ],
-            "time": "2017-06-29T10:49:38+00:00"
+            "support": {
+                "issues": "https://github.com/fenom-template/fenom/issues",
+                "source": "https://github.com/fenom-template/fenom/tree/v3.0.0"
+            },
+            "time": "2023-02-27T08:38:43+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": []
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
